@@ -1,0 +1,122 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h2{
+    font-size: 40px;
+    padding-top: 10%;
+}
+h1{
+    font-size: 50px;
+}
+.color-name{
+    color: hotpink;
+}
+p{
+    color: grey;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+#header-banner{
+    background-image: url("images/background/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;  
+}
+
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,magenta,hotpink);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+#biography-banner{
+    padding-top: 10%;
+    background-image: url("images/background/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 550px;
+}
+.one-third-width{
+    width: 25%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.one-third-width img{
+    width: 100%;
+}
+#latest-work-banner{
+    text-align: center;
+    background-image: url("images/background/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+}
+footer{
+    background-image: url("images/background/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.center-text{
+    text-align: center;
+    margin-bottom: 10%;
+}
+#client-name{
+    margin-top: 2%;
+    margin-bottom:5%;
+}
+#email-box{
+    background-color:hotpink;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    padding: 10px 20px;
+    color: white;
+}
+#copyright{
+    margin-top: 20%;
+    text-align: center;
+}
+#specialities{
+    
+    border-right: 20px solid;
+    border-left: 20px solid;
+    border-image: linear-gradient(45deg,black,hotpink);
+    border-image-slice:1;
+    height: 700px;
+    
+}
+li{
+    background-color: hotpink;
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    width: 500px;
+    box-shadow: 10px 10px 30px gray;
+    margin: auto;
+}
+li:hover{
+    background-color: grey;
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+    box-shadow: 10px 10px 30px gray;
+    margin: auto;
+}
+li:nth-child(n){
+    margin-top: 3%;
+}
